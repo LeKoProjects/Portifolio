@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo Suzart - Portfólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">Leonardo Suzart</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" data-aos="fade-up">
+        <div class="container">
+            <h1>Leonardo Suzart</h1>
+            <p>Desenvolvedor Web | Especialista em Laravel e Soluções Personalizadas</p>
+            <a href="#contato" class="btn btn-cta mt-3">Contrate-me</a>
+        </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center">Sobre Mim</h2>
+            <p class="text-center">Sou Leonardo Suzart, desenvolvedor web com 2 anos de experiência no mercado. Especialista em Laravel, já desenvolvi aplicações reais que resolveram problemas complexos para empresas e clientes. Apaixonado por entregar resultados, busco sempre criar soluções eficientes e inovadoras.</p>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" data-aos="fade-left">
+        <div class="container">
+            <h2 class="text-center">Projetos</h2>
+            <div class="row">
+                <div class="col-md-4" data-aos="zoom-in">
+                    <div class="card">
+                        <img src="images/projeto1.jpg" class="card-img-top" alt="Projeto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Sistema de Gestão Clínica</h5>
+                            <p class="card-text">Sistema completo desenvolvido em Laravel para gestão de clínicas, incluindo agendamento e relatórios.</p>
+                            <a href="#" class="btn btn-cta">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card">
+                        <img src="images/projeto2.jpg" class="card-img-top" alt="Projeto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Sistema de Condomínio</h5>
+                            <p class="card-text">Aplicação para administração de condomínios, com controle de pagamentos e comunicação interna.</p>
+                            <a href="#" class="btn btn-cta">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Serviços</h2>
+            <div class="row mt-4">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card-servico text-center p-4">
+                        <div class="icon mb-3">
+                            <img src="images/development-icon.svg" alt="Desenvolvimento Web" width="50">
+                        </div>
+                        <h3>Desenvolvimento Web</h3>
+                        <p>Criação de sites e sistemas personalizados com foco em Laravel, garantindo soluções modernas e eficientes.</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card-servico text-center p-4">
+                        <div class="icon mb-3">
+                            <img src="images/api-icon.svg" alt="Integração de APIs" width="50">
+                        </div>
+                        <h3>Integração de APIs</h3>
+                        <p>Implementação e conexão de APIs para ampliar as funcionalidades de sistemas e aplicações web.</p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card-servico text-center p-4">
+                        <div class="icon mb-3">
+                            <img src="images/management-icon.svg" alt="Sistemas de Gestão" width="50">
+                        </div>
+                        <h3>Sistemas de Gestão</h3>
+                        <p>Desenvolvimento de sistemas de gestão para clínicas, condomínios e outras áreas empresariais.</p>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-md-4 mt-4">
+                    <div class="card-servico text-center p-4">
+                        <div class="icon mb-3">
+                            <img src="images/optimization-icon.svg" alt="Otimização e Performance" width="50">
+                        </div>
+                        <h3>Otimização e Performance</h3>
+                        <p>Melhoria na velocidade, usabilidade e experiência de sistemas já existentes.</p>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="col-md-4 mt-4">
+                    <div class="card-servico text-center p-4">
+                        <div class="icon mb-3">
+                            <img src="images/maintenance-icon.svg" alt="Manutenção de Sistemas" width="50">
+                        </div>
+                        <h3>Manutenção de Sistemas</h3>
+                        <p>Suporte contínuo, atualizações e melhorias em projetos desenvolvidos ou existentes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Leonardo Suzart. Todos os direitos reservados.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // Inicializando o AOS
+        AOS.init({
+            duration: 1000, // Duração das animações
+            once: true // Anima apenas uma vez
+        });
+    </script>
+</body>
+</html>

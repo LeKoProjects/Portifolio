@@ -1,0 +1,158 @@
+/* Geral */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #1E1E1E;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand, .nav-link {
+    color: #FFFFFF !important;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #1E1E1E;
+    color: #C6F38C;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+/* Botões - Animação no Hover */
+.btn-cta {
+    background-color: #C6F38C;
+    color: #121212;
+    border: 2px solid #C6F38C;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-cta:hover {
+    background-color: #A5D671;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    transform: scale(1.1); /* Aumenta o tamanho do botão */
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: #C6F38C;
+    font-weight: 600;
+}
+
+/* Seções */
+section {
+    padding: 50px 20px;
+}
+
+#sobre {
+    background-color: #1E1E1E;
+}
+
+#projetos {
+    background-color: #121212;
+}
+
+#contato {
+    background-color: #1E1E1E;
+}
+
+/* Cards - Animação no Hover */
+.card {
+    background-color: #1E1E1E;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    border-color: #C6F38C; /* Cor da borda no hover */
+    transform: translateY(-10px); /* Eleva o card */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos e Texto dos Cards */
+.card-title, .card-text {
+    transition: color 0.3s ease-in-out;
+}
+
+.card:hover .card-title {
+    color: #C6F38C;
+}
+
+.card:hover .card-text {
+    color: #A5D671;
+}
+
+.card-title {
+    color: #C6F38C;
+}
+
+.card-text {
+    color: #FFFFFF;
+}
+
+/* Seção de Serviços */
+#servicos {
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+#servicos h2 {
+    color: #C6F38C;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.card-servico {
+    background-color: #1E1E1E;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-servico:hover {
+    border-color: #C6F38C;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-servico h3 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.card-servico p {
+    color: #A5A5A5;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    line-height: 1.5;
+}
+
+.card-servico .icon img {
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-servico:hover .icon img {
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+}
